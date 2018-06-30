@@ -48,4 +48,4 @@ function chunk2(array, size) {
 	return chunked;
 }
 
-module.exports = chunked;
+module.exports = chunk;
