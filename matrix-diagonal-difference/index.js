@@ -2,7 +2,7 @@
  * Given a square matrix (in format of 2 dimensional array), 
  * calculate the absolute difference between the sums of its diagonals.
  *
- * For example, the square matrix  is shown below:
+ * ---- Examples
  * 1 2 3
  * 4 5 6
  * 9 8 9  
