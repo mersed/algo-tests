@@ -83,4 +83,4 @@ function pyramid3(n, row=1, str='') {
 }
 
 
-module.exports = pyramid3;
+module.exports = pyramid;
