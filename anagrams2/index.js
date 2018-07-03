@@ -20,8 +20,7 @@
  */
 
 function anagram(s) {
-
-	let len = s.length;
+    let len = s.length;
 
     if(len%2 !== 0) {
         return -1;
