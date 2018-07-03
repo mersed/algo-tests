@@ -23,26 +23,25 @@ function anagram(s) {
 
 	let len = s.length;
 
- 	if(len%2 !== 0) {
- 		return -1;
- 	}
+    if(len%2 !== 0) {
+        return -1;
+    }
 
- 	let counter = 0;
- 	let str1 = s.substring(0,(len/2));
+    let counter = 0;
+    let str1 = s.substring(0,(len/2));
     let str2 = s.substring(len/2); 
 
     for(let char of str1) {
-    	let index = str2.indexOf(char);
-     	if (index === -1){
-        	counter++;
-       	} 
-       	else {
-         	str2 = str2.substring(0, index) + str2.substring(index + 1);
-     	}
+        let index = str2.indexOf(char);
+        if (index === -1){
+            counter++;
+        } 
+        else {
+            str2 = str2.substring(0, index) + str2.substring(index + 1);
+        }
+    }
 
-	}
-
-	return counter;
+    return counter;
 }
 
 module.exports = anagram;
